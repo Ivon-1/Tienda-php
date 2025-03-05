@@ -1,0 +1,104 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #0056b3; /* Azul más oscuro para el fondo */
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Logo */
+.logo a {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* Barra de búsqueda y filtro */
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-input,
+.filter-input {
+    padding: 8px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.search-input {
+    width: 300px; /* Aumento del tamaño a 300px */
+    background-color: #e6f0ff; /* Fondo suave azul para el input */
+    color: #0056b3; /* Texto azul oscuro */
+}
+
+.search-input:focus {
+    outline: none;
+    border: 2px solid #0056b3; /* Borde azul cuando está en foco */
+}
+
+.filter-input {
+    width: 200px; /* Aumento del tamaño a 200px */
+    background-color: #e6f0ff; /* Fondo suave azul para el input */
+    color: #0056b3; /* Texto azul oscuro */
+}
+
+.category-select {
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    font-size: 14px;
+    background-color: #cce0ff; /* Azul claro para el select */
+    color: #0056b3; /* Texto azul oscuro */
+    margin: 0 5px;
+    width: 180px; /* Aumento del tamaño a 180px */
+}
+
+.category-select:focus {
+    outline: none;
+    border: 2px solid #0056b3; /* Borde azul al estar en foco */
+}
+
+/* Estilo para los enlaces de sesión y carrito */
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.login, .cart {
+    padding: 8px 15px;
+    margin-left: 10px;
+    background-color: #007bff; /* Azul brillante para "Iniciar sesión" */
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.login:hover, .cart:hover {
+    background-color: #0056b3; /* Azul más oscuro para el hover */
+}
+
+.cart {
+    background-color: #66ccff; /* Azul claro para el carrito */
+}
+
+.cart:hover {
+    background-color: #3399ff; /* Azul más vibrante al pasar el mouse */
+}

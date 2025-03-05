@@ -1,0 +1,45 @@
+/* Estilos de la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif; /* Establecer una fuente más limpia */
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    font-size: 14px; /* Tamaño de fuente más pequeño y legible */
+}
+
+th {
+    background-color: #4A90E2; /* Azul suave para los encabezados */
+    color: white;
+}
+
+td {
+    background-color: #F7FBFF; /* Fondo blanco azulado para las celdas */
+}
+
+tr:nth-child(even) {
+    background-color: #E1F0FF; /* Azul muy suave para las filas pares */
+}
+
+tr:hover {
+    background-color: #D0E6FF; /* Azul más oscuro al pasar el ratón */
+}
+
+/* Estilos para el enlace */
+a {
+    color: #4A90E2; /* Azul claro para el enlace */
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #E1F0FF; /* Fondo azul suave */
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: #4A90E2; /* Azul más oscuro al pasar el ratón */
+    color: white; /* Texto blanco al hacer hover */
+}

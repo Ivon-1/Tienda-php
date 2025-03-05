@@ -1,0 +1,85 @@
+    /* Fondo de la página */
+    body {
+        font-family: Arial, sans-serif;
+        background: linear-gradient(135deg, #6dd5ed, #2193b0);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    /* Contenedor del formulario */
+    div {
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        padding: 30px 20px;
+        width: 300px;
+        text-align: center;
+        transition: all 0.3s;
+    }
+
+    /* Efecto hover en el contenedor */
+    div:hover {
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        transform: translateY(-5px);
+    }
+
+    /* Estilo del título */
+    h3 {
+        color: #333;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+
+    /* Estilo de las etiquetas */
+    label {
+        display: block;
+        text-align: left;
+        font-weight: bold;
+        margin-bottom: 5px;
+        color: #555;
+    }
+
+    /* Estilo de los inputs */
+    input[type="text"],
+    input[type="password"],
+    input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+        font-size: 14px;
+    }
+
+    /* Estilo del botón de enviar */
+    input[type="submit"] {
+        background-color: #2193b0;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        font-weight: bold;
+    }
+
+    /* Efecto hover en el botón de enviar */
+    input[type="submit"]:hover {
+        background-color: #6dd5ed;
+    }
+
+    /* Estilo del enlace */
+    a {
+        display: inline-block;
+        margin-top: 10px;
+        color: #2193b0;
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    /* Efecto hover en el enlace */
+    a:hover {
+        text-decoration: underline;
+    }

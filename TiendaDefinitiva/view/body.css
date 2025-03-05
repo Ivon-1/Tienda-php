@@ -1,0 +1,96 @@
+/* Contenedor principal */
+.product-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f5faff; /* Fondo azul claro */
+    width: 100%; /* Asegurarse que ocupe el 100% del contenedor */
+}
+
+/* Título de sección */
+.section-title {
+    text-align: center;
+    font-size: 2rem;
+    color: #083b66; /* Azul oscuro */
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+/* Lista de productos */
+.product-list {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las tarjetas bajen a otra fila si no caben */
+    justify-content: space-between; /* Espacio uniforme entre tarjetas */
+    gap: 20px; /* Espacio entre filas y columnas */
+    width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+}
+
+/* Contenedor de tarjetas */
+.product-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* Tarjeta de producto individual */
+.product-card .card {
+    background-color: #ffffff; /* Fondo blanco */
+    border: 2px solid #d6e6f5; /* Borde azul pálido */
+    border-radius: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    width: calc(33.333% - 20px); /* Tres tarjetas por fila */
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover en tarjeta */
+.product-card .card:hover {
+    transform: translateY(-5px); /* Eleva la tarjeta ligeramente */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15); /* Sombra más grande en hover */
+}
+
+/* Imagen del producto */
+.product-card .card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: 2px solid #d6e6f5; /* Borde alrededor de la imagen */
+}
+
+/* Texto de las tarjetas */
+.product-card .card p {
+    margin: 5px 0;
+    color: #083b66; /* Azul oscuro */
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+/* Nombres destacados */
+.product-card .card p strong {
+    font-weight: bold;
+    color: #041f36; /* Azul aún más oscuro */
+}
+
+/* Botón de la tarjeta */
+.product-card .card button {
+    background-color: #0a6bb8; /* Azul vibrante */
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 15px;
+}
+
+/* Hover en botón */
+.product-card .card button:hover {
+    background-color: #084d8a; /* Azul más oscuro */
+    transform: scale(1.05); /* Ligeramente más grande */
+}
+    
