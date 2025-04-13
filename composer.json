@@ -11,5 +11,7 @@
             "email": "IvanAlvz12@outlook.es"
         }
     ],
-    "require": {}
+    "require": {
+        "laravel/framework": "^9.0"
+    }
 }
