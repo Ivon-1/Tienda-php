@@ -1,0 +1,15 @@
+{
+    "name": "ivana/tienda-definitiva",
+    "autoload": {
+        "psr-4": {
+            "Ivana\\TiendaDefinitiva\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ivon-1",
+            "email": "IvanAlvz12@outlook.es"
+        }
+    ],
+    "require": {}
+}
