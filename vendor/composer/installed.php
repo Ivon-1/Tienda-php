@@ -3,7 +3,7 @@
         'name' => 'ivana/tienda-definitiva',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '67f1d6257716c88e187bdb0b3d8d88c7ba6545a7',
+        'reference' => '4da10eef7ce6ec50e2ed07eaaef39d1b8b35a12f',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -295,7 +295,7 @@
         'ivana/tienda-definitiva' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '67f1d6257716c88e187bdb0b3d8d88c7ba6545a7',
+            'reference' => '4da10eef7ce6ec50e2ed07eaaef39d1b8b35a12f',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -481,8 +481,8 @@
         'psr/log-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0|2.0|3.0',
-                1 => '1.0.0 || 2.0.0 || 3.0.0',
+                0 => '1.0.0 || 2.0.0 || 3.0.0',
+                1 => '1.0|2.0|3.0',
             ),
         ),
         'psr/simple-cache' => array(
