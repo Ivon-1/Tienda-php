@@ -5,6 +5,8 @@
 
 # Sensitive files
 env.php
+model/env.php
+*.env.php
 config/database.php.local
 config/auth.php.local
 

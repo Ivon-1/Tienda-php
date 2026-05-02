@@ -17,7 +17,7 @@
             <input type="text" name="email">
 
             <label for="password">Contraseña</label>
-            <input type="text" name="password" >
+            <input type="password" name="password" >
 
             <input type="submit" value="Enviar">
             <a href="registro.php ">Registro</a>

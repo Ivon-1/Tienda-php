@@ -1,5 +1,13 @@
 <?php
-    require_once("env.php");
+    $envFile = __DIR__ . "/env.php";
+    $envExampleFile = __DIR__ . "/env.example.php";
+
+    if (file_exists($envFile)) {
+        require_once($envFile);
+    } else {
+        require_once($envExampleFile);
+    }
+
     class BaseDatos{
         private static $pdo_conexion;
         /**
